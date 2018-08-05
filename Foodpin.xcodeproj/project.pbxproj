@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		AFD6276D210D9BC3008E7E53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD6276C210D9BC3008E7E53 /* AppDelegate.swift */; };
-		AFD6276F210D9BC3008E7E53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD6276E210D9BC3008E7E53 /* ViewController.swift */; };
 		AFD62772210D9BC3008E7E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD62770210D9BC3008E7E53 /* Main.storyboard */; };
 		AFD62774210D9BC4008E7E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD62773210D9BC4008E7E53 /* Assets.xcassets */; };
 		AFD62777210D9BC4008E7E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD62775210D9BC4008E7E53 /* LaunchScreen.storyboard */; };
+		AFD6277F210D9C8A008E7E53 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD6277E210D9C8A008E7E53 /* RestaurantTableViewController.swift */; };
+		AFD62781210DA417008E7E53 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD62780210DA417008E7E53 /* RestaurantTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AFD62769210D9BC3008E7E53 /* Foodpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD6276C210D9BC3008E7E53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFD6276E210D9BC3008E7E53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFD62771210D9BC3008E7E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFD62773210D9BC4008E7E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFD62776210D9BC4008E7E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFD62778210D9BC4008E7E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD6277E210D9C8A008E7E53 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		AFD62780210DA417008E7E53 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				AFD6276C210D9BC3008E7E53 /* AppDelegate.swift */,
-				AFD6276E210D9BC3008E7E53 /* ViewController.swift */,
 				AFD62770210D9BC3008E7E53 /* Main.storyboard */,
 				AFD62773210D9BC4008E7E53 /* Assets.xcassets */,
 				AFD62775210D9BC4008E7E53 /* LaunchScreen.storyboard */,
 				AFD62778210D9BC4008E7E53 /* Info.plist */,
+				AFD6277E210D9C8A008E7E53 /* RestaurantTableViewController.swift */,
+				AFD62780210DA417008E7E53 /* RestaurantTableViewCell.swift */,
 			);
 			path = Foodpin;
 			sourceTree = "<group>";
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFD6276F210D9BC3008E7E53 /* ViewController.swift in Sources */,
+				AFD6277F210D9C8A008E7E53 /* RestaurantTableViewController.swift in Sources */,
+				AFD62781210DA417008E7E53 /* RestaurantTableViewCell.swift in Sources */,
 				AFD6276D210D9BC3008E7E53 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XW9B7MQLBU;
 				INFOPLIST_FILE = Foodpin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XW9B7MQLBU;
 				INFOPLIST_FILE = Foodpin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
